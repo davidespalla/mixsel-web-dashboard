@@ -1,0 +1,40 @@
+* {
+    font-family: Arial;
+}
+
+
+.header-title {
+    margin: 4px auto;
+    text-align: center;
+    max-width: 1000px;
+}
+.header-description {
+    margin: 4px auto;
+    text-align: center;
+    max-width: 1000px;
+}
+
+.menu {
+    margin: 4px auto;
+    text-align: center;
+    max-width: 1000px;
+}
+.x_dropdown {
+    width: 30%;
+    display: inline-block;
+}
+.y_dropdown {
+    width: 30%;
+    display: inline-block;
+}
+.z_dropdown {
+    width: 30%;
+    display: inline-block;
+}
+.big-plot {
+    display: block;
+    margin-left: 15%;
+    margin-right: 20%;
+    
+  }
+
