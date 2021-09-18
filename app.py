@@ -51,7 +51,7 @@ app = dash.Dash(__name__)
 server = app.server
 
 app.title = "MixSel dashboard"
-title_text = "Explore mixed selecitvity in the parahippocampal regions "
+title_text = "Explore mixed selectivity in the parahippocampal regions "
 description_text = '''Select the score to plot on each axis from corresponding dropdown menu.
                       Each cell in the dataset will be displayed as a point with the corresponding scores as coordinates, 
                       and colored according to its classification as modulated/not-modulated by each of the correlates.'''
@@ -127,9 +127,6 @@ def update_charts(x_label, y_label, z_label):
     new_data = add_colorlist(data,xlabel=x_label,ylabel=y_label,zlabel=z_label)
     new_scatter = make_3d_scatter(new_data,xlabel=x_label,ylabel=y_label,zlabel=z_label)  
     return new_scatter
-
-#layout = go.Layout(scene=dict(aspectmode="cube"))
-#    new_fig = go.Figure(data=new_scatter,layout=layout)
 
 
 
